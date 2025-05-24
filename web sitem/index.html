@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giriş Sayfası</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+
+  <div class="login-container">
+    <h2>Giriş Yap</h2>
+    <form action="sonuc.php" method="POST" onsubmit="return validateForm()">
+      <label for="kullaniciadi">Kullanıcı Adı:</label>
+      <input type="text" id="kullaniciadi" name="kullaniciadi" placeholder="b241210027@sakarya.edu.tr" required>
+
+      <label for="sifre">Şifre:</label>
+      <input type="password" id="sifre" name="sifre" placeholder="b241210027" required>
+
+      <button type="submit">Giriş</button>
+    </form>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
